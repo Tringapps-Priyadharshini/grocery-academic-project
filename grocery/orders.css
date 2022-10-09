@@ -1,0 +1,43 @@
+body {
+    background: url('images/details.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 25px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.596);
+    color: white;
+}
+
+.tableStyle {
+    border-collapse: collapse;
+}
+
+a {
+    margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+body {
+    background: url('images/bgbanner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signin {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    font-size: 25px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+input {
+    width: 100%;
+    font-size: 30px;
+    color: #000000;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    margin-left: 130px;
+    background-color: rgb(255, 0, 21);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.signinMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(202, 170, 24, 0.644);
+}

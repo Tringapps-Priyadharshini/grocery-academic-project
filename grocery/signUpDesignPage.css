@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    background: url('images/banner.webp');
+}
+
+.signup-container {
+    position: relative;
+    max-width: 800px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+.admin {
+    margin-right: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user {
+    cursor: pointer;
+}
+
+.signup-container .signup {
+    position: absolute;
+    top: 39%;
+    background: rgb(0, 0, 0);
+    background: rgba(77, 63, 63, 0.49);
+    color: #f1f1f1;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

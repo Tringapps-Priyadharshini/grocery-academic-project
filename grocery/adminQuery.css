@@ -1,0 +1,36 @@
+body {
+    margin-top: 100px;
+    background: url('images/contactus.jpg');
+    color: white;
+}
+
+table {
+    text-align: center;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 24px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.query-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableStyle {
+    background: rgba(0, 0, 0, 0.26);
+    border-collapse: collapse;
+    font-size: 23px;
+}

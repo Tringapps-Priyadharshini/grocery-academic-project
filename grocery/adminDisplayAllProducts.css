@@ -1,0 +1,55 @@
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.096);
+}
+
+.tableStyle {
+    border-collapse: collapse;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.btncontact,
+.btnDelete {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btncontact {
+    background-color: blue;
+}
+
+.btnDelete {
+    background-color: red;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}

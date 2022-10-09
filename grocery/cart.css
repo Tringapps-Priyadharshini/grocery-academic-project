@@ -1,0 +1,106 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.products .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.cartDetails {
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.096);
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+input[type='number'] {
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+}
+
+.btnCheckOut,
+.btnUpdate {
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    border: none;
+}
+
+.checkout {
+    margin-top: 40px;
+}
+
+.btnCheckOut {
+    margin-left: 580px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.3;
+    user-select: none;
+}
+
+.btnUpdate {
+    width: 30%;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btnRemove,
+.btndeleteall {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-style: italic;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.grandTotal {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media(max-width:1200px) {
+    .products .box-container {
+        overflow-x: scroll;
+    }
+    .products .box-container table {
+        width: 1200px;
+    }
+}
+
+@media(max-width:450px) {
+    .products .box-container {
+        font-size: 30px;
+    }
+    .products .box-container .cartDetails img {
+        height: 200px;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+    margin-top: 100px;
+}
+
+table {
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 24px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.query-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableStyle {
+    background: rgba(0, 0, 0, 0.096);
+    border-collapse: collapse;
+    font-size: 23px;
+}

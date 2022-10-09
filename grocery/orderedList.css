@@ -1,0 +1,53 @@
+body {
+    /* background: url('images/orders.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    margin-top: 100px;
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.096);
+}
+
+.tableStyle {
+    border-collapse: collapse;
+}
+
+.btnDelete i {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+a {
+    margin: 0 auto;
+    text-decoration: none;
+}

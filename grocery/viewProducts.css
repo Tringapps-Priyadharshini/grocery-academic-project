@@ -1,0 +1,67 @@
+body {
+    margin-top: 100px;
+}
+
+table {
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 24px;
+}
+
+td {
+    text-transform: capitalize;
+    padding: 10px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.096);
+}
+
+.tableStyle {
+    border-collapse: collapse;
+    font-size: 23px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    margin: 0 auto;
+}
+
+.btnEdit,
+.btnDelete {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+i {
+    font-size: 15px;
+}
+
+.btnEdit {
+    background-color: blue;
+}
+
+.btnDelete {
+    background-color: red;
+}
